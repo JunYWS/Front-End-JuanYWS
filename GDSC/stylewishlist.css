@@ -1,0 +1,116 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing;
+    font-family: sans-serif;
+}
+
+section{
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    padding: 50px;
+    background-image: url(bg16.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 5px 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav{
+        position: fixed;
+        z-index: 100;
+        top: 15px;left: 0;
+        right: 0;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;padding: 0 70px 0 70px;
+        padding: 0 70px 0 70px;
+    }
+    
+    header .logo{
+        position: relative;
+        max-width: 210px;
+    }
+    
+    header ul{
+        position: relative;
+        display: flex;
+    }
+    
+    header ul li{
+        list-style-type: style none;
+    }
+    
+    header ul li a{
+        display: inline-block;
+        margin-right: 60px;
+        color: white;
+        text-transform: none;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    header ul li a:hover{
+        color: red;
+    }
+}
+
+.content{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    width: 40px;
+    justify-content: space-between;
+    align-items:center;
+}
+    .picture{
+        position: relative;
+        display:inherit;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .gambar3{
+        position: relative;
+        max-width: 200px;
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+        margin-top: 0px;
+        margin-left: 30px;
+        margin-right: 35px;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+}
+.content .a .btn{
+    display:contents;
+    padding: 17px 28px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1px;
+    background-color: #bf0000;
+    text-decoration:tomato;
+    background-color: #a22d2d;
+    color: white;
+}
